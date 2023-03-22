@@ -21,9 +21,9 @@ vi /etc/redis/redis.conf
 ```
 
 ## Adjust /etc/redis/redis.conf supervised key to use systemd
-```
+`
 ~~supervised no~~
-```
+`
 to 
 ```
 supervised systemd
@@ -39,9 +39,9 @@ vi /etc/redis/redis.conf
 ```
 
 ## Optionally add a password by adjusting requirepass key to your preferred password
-```
+`
 ~~# requirepass default~~
-```
+`
 to 
 ```
 requirepass 7verySecurePasswordNoCapOnGSheesh7
